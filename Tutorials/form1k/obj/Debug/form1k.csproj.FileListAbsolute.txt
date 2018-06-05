@@ -1,0 +1,10 @@
+c:\users\kevin.diaz\source\repos\form1k\form1k\bin\Debug\form1k.exe.config
+c:\users\kevin.diaz\source\repos\form1k\form1k\bin\Debug\form1k.exe
+c:\users\kevin.diaz\source\repos\form1k\form1k\bin\Debug\form1k.pdb
+c:\users\kevin.diaz\source\repos\form1k\form1k\obj\Debug\form1k.csprojAssemblyReference.cache
+c:\users\kevin.diaz\source\repos\form1k\form1k\obj\Debug\form1k.Properties.Resources.resources
+c:\users\kevin.diaz\source\repos\form1k\form1k\obj\Debug\form1k.csproj.GenerateResource.cache
+c:\users\kevin.diaz\source\repos\form1k\form1k\obj\Debug\form1k.csproj.CoreCompileInputs.cache
+c:\users\kevin.diaz\source\repos\form1k\form1k\obj\Debug\form1k.exe
+c:\users\kevin.diaz\source\repos\form1k\form1k\obj\Debug\form1k.pdb
+c:\users\kevin.diaz\source\repos\form1k\form1k\obj\Debug\form1k.Form1.resources
