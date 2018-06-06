@@ -1,0 +1,15 @@
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\bin\Debug\studentsDBC.exe.config
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\bin\Debug\studentsDBC.exe
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\bin\Debug\studentsDBC.pdb
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\bin\Debug\EntityFramework.dll
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\bin\Debug\EntityFramework.xml
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\obj\Debug\studentsDBC.csprojAssemblyReference.cache
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\obj\Debug\studentsDBC.Form1.resources
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\obj\Debug\studentsDBC.Properties.Resources.resources
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\obj\Debug\studentsDBC.csproj.GenerateResource.cache
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\obj\Debug\studentsDBC.csproj.CoreCompileInputs.cache
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\obj\Debug\studentsDBC.csproj.CopyComplete
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\obj\Debug\studentsDBC.exe
+C:\Users\kevin.diaz\source\repos\studentsDBC\studentsDBC\obj\Debug\studentsDBC.pdb
