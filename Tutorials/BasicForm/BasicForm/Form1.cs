@@ -17,6 +17,18 @@ namespace BasicForm
             InitializeComponent();
         }
 
-        
+        private void listCity_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string text = listCity.GetItemText(listCity.SelectedItem);
+            MessageBox.Show(text);
+        }
+
+        private void buttonSubmit_Click(object sender, EventArgs e)
+        {
+            String name = txtName.Text;
+            String address = txtAddress.Text;
+
+            MessageBox.Show(name + " "+ address);
+        }
     }
 }
