@@ -68,21 +68,21 @@ namespace studentsDBC
         }
 
         //HELP HERE!!! :O
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (dataGridView1.Rows.Count > 0)
-            {
-                foreach (DataGridViewRow row in dataGridView1.SelectedRows)
-                {
-                    label_id_hid.Text = row.Cells[0].Value.ToString();
-                    textBox_name.Text = row.Cells[1].Value.ToString();
-                    textBox_age.Text = row.Cells[2].Value.ToString();
-                    textBox_city.Text = row.Cells[3].Value.ToString();
-                    cmbxGen.SelectedItem = row.Cells[4].Value.ToString();
-                }
+        //private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        //{
+        //    if (dataGridView1.Rows.Count > 0)
+        //    {
+        //        foreach (DataGridViewRow row in dataGridView1.SelectedRows)
+        //        {
+        //            label_id_hid.Text = row.Cells[0].Value.ToString();
+        //            textBox_name.Text = row.Cells[1].Value.ToString();
+        //            textBox_age.Text = row.Cells[2].Value.ToString();
+        //            textBox_city.Text = row.Cells[3].Value.ToString();
+        //            cmbxGen.SelectedItem = row.Cells[4].Value.ToString();
+        //        }
                 
-            }
-        }
+        //    }
+        //}
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -95,14 +95,15 @@ namespace studentsDBC
         {
             if (dataGridView1.Rows.Count > 0)
             {
-                foreach (DataGridViewRow row in dataGridView1.SelectedRows)
-                {
+                var row = dataGridView1.Rows[e.RowIndex];
+                //foreach (DataGridViewRow row in dataGridView1.SelectedRows)
+                //{
                     label_id_hid.Text = row.Cells[0].Value.ToString();
                     textBox_name.Text = row.Cells[1].Value.ToString();
                     textBox_age.Text = row.Cells[2].Value.ToString();
                     textBox_city.Text = row.Cells[3].Value.ToString();
                     cmbxGen.SelectedItem = row.Cells[4].Value.ToString();
-                }
+                //}
 
             }
         }
@@ -178,6 +179,8 @@ namespace studentsDBC
         private void button_delete_Click(object sender, EventArgs e)
         {
             StudentDetail stu = SetValues(Convert.ToInt32(label_id_hid.Text), textBox_name.Text, Convert.ToInt32(textBox_age.Text), textBox_city.Text, cmbxGen.SelectedItem.ToString());
+            bool result = DeleteStudentDetails(stu);
+            ShowStatus(result, "Delete");
         }
 
         public bool DeleteStudentDetails(StudentDetail Stu)
