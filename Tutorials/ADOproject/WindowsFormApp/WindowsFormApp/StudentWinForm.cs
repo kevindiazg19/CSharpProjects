@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 using System.Data;
 
+using System.Configuration;
+
 using Tuc.School.LogicTier;
 
 namespace Tuc.School.WinFormApp

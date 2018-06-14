@@ -16,9 +16,9 @@ namespace WindowsFormApp
 {
     public partial class Form1 : Form
     {
-        //private string connec1 = 
 
-        private string connectionString = ConfigurationManager.ConnectionStrings["SchoolConnectionString"].ConnectionString;
+        private string connectionString = 
+            ConfigurationManager.ConnectionStrings["SCHOOLConnectionString"].ConnectionString;
 
         public Form1()
         {
