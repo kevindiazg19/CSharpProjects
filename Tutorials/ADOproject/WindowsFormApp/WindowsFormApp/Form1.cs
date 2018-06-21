@@ -39,5 +39,11 @@ namespace WindowsFormApp
 
             dataGridView1.DataSource = ds.Tables[0];
         }
+
+        private void button_School_Click(object sender, EventArgs e)
+        {
+            Form_Schools form2 = new Form_Schools();
+            form2.Show();
+        }
     }
 }

@@ -20,5 +20,12 @@ namespace Tuc.School.WinFormApp
 
             return studentData.GetStudentDB(connectionString);
         }
+
+        public DataSet GetSchools(string connectionString)
+        {
+            StudentData schoolData = new StudentData();
+
+            return schoolData.getSchoolsDB(connectionString);
+        }
     }
 }

@@ -27,5 +27,17 @@ namespace Tuc.School.LogicTier
 
             return ds;
         }
+
+        public DataSet getSchoolsDB(string connectionString)
+        {
+            string selectSQL = "SELECT TOP 1000 [SchoolId],[SchoolName],[Description],[Address],[Phone],[Postcode],[PostAddress] FROM [School].[dbo].[School]";
+            SqlConnection con = new SqlConnection(connectionString);
+
+            SqlDataAdapter da = new SqlDataAdapter(selectSQL, con);
+
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            return ds;
+        }
     }
 }
