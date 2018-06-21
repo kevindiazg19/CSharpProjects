@@ -41,6 +41,9 @@ namespace WindowsFormApp
             //dataGridView1.DataSource = ds.Tables[0];
         }
 
-        
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
