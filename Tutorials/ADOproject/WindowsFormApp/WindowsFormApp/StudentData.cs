@@ -30,7 +30,8 @@ namespace Tuc.School.LogicTier
 
         public DataSet getSchoolsDB(string connectionString)
         {
-            string selectSQL = "SELECT TOP 1000 [SchoolId],[SchoolName],[Description],[Address],[Phone],[Postcode],[PostAddress] FROM [School].[dbo].[School]";
+            string selectSQL = "SELECT * FROM School";
+            //string selectSQL = "SELECT TOP 1000 [SchoolId],[SchoolName],[Description],[Address],[Phone],[Postcode],[PostAddress] FROM [School].[dbo].[School]";
             SqlConnection con = new SqlConnection(connectionString);
 
             SqlDataAdapter da = new SqlDataAdapter(selectSQL, con);
@@ -38,6 +39,25 @@ namespace Tuc.School.LogicTier
             DataSet ds = new DataSet();
             da.Fill(ds);
             return ds;
+        }
+
+        public void insertQuery(string connectionString, string insertSQL)
+        {
+            try
+            {
+                //string insertSQL = "";
+                SqlConnection con = new SqlConnection(connectionString);
+
+                SqlDataAdapter da = new SqlDataAdapter(insertSQL, con);
+
+                da.InsertCommand = new SqlCommand(insertSQL, con);
+                da.InsertCommand.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            
         }
     }
 }

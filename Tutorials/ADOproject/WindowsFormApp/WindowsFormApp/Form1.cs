@@ -43,9 +43,13 @@ namespace WindowsFormApp
         private void button_School_Click(object sender, EventArgs e)
         {
             Form_Schools form2 = new Form_Schools();
-            this.Hide();
             form2.Show();
-            this.Show();
+            //this.Show();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

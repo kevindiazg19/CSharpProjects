@@ -27,5 +27,11 @@ namespace Tuc.School.WinFormApp
 
             return schoolData.getSchoolsDB(connectionString);
         }
+
+        public void insertSchool(string connectionString, string insertSQL)
+        {
+            StudentData schoolData = new StudentData();
+            schoolData.getSchoolsDB(connectionString);
+        }
     }
 }
